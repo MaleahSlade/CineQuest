@@ -1,9 +1,11 @@
 // FRONT DOOR
-import 'dotenv/config';
 import express from 'express';
 
 // Your Routes
 import movieRoutes from './routes/movieRoutes.js';
+
+// Load .env (built into Node 20.12+, no dotenv package needed)
+process.loadEnvFile();
 
 // Create the Express App
 const app = express();
