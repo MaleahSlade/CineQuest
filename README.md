@@ -1,0 +1,1 @@
+CineQuest is a backend application designed to retrieve movie information from a public external movie database (www.omdbapi.com). This project demonstrates backend development fundamentals, including server setup, route handling, external API integration, and secure environment configuration.
